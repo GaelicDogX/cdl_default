@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>Current_Share_Type__c</fullName>
+    <fullName>CurrentShareType__c</fullName>
     <description>Select the current share type the Content Link record must have to apply this rule.</description>
     <externalId>false</externalId>
     <fieldManageability>SubscriberControlled</fieldManageability>

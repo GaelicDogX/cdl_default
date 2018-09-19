@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TriggerContext__c</fullName>
+    <defaultValue>true</defaultValue>
+    <description>Only execute this rule when a trigger called the default assignment method.</description>
+    <externalId>false</externalId>
+    <fieldManageability>SubscriberControlled</fieldManageability>
+    <inlineHelpText>Only execute this rule when a trigger called the default assignment method.</inlineHelpText>
+    <label>Trigger Context Only</label>
+    <type>Checkbox</type>
+</CustomField>

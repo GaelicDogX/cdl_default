@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>Test - Account - for Internal Users</label>
+    <protected>true</protected>
+    <values>
+        <field>CurrentShareType__c</field>
+        <value xsi:type="xsd:string">V</value>
+    </values>
+    <values>
+        <field>CurrentVisibility__c</field>
+        <value xsi:type="xsd:string">*</value>
+    </values>
+    <values>
+        <field>Enabled__c</field>
+        <value xsi:type="xsd:boolean">true</value>
+    </values>
+    <values>
+        <field>OrderIndex__c</field>
+        <value xsi:type="xsd:double">1.0</value>
+    </values>
+    <values>
+        <field>ShareType__c</field>
+        <value xsi:type="xsd:string">I</value>
+    </values>
+    <values>
+        <field>TestData__c</field>
+        <value xsi:type="xsd:boolean">true</value>
+    </values>
+    <values>
+        <field>TriggerContext__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>UserType__c</field>
+        <value xsi:type="xsd:string">Internal</value>
+    </values>
+    <values>
+        <field>Visibility__c</field>
+        <value xsi:type="xsd:string">NA</value>
+    </values>
+    <values>
+        <field>sObject_API_Name__c</field>
+        <value xsi:type="xsd:string">account</value>
+    </values>
+</CustomMetadata>

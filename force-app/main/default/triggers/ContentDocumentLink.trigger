@@ -15,11 +15,5 @@
 */
 trigger ContentDocumentLink on ContentDocumentLink (before insert) {
     // When internal user and share type is viewer, change to record
-	for(ContentDocumentLink cdl: Trigger.new)
-        if(
-            cdl.LinkedEntityId.getsObjectType()==ProfessionalServicesRequest__c.getsObjectType() ?
-            cdl.Visibility=='InternalUsers'&& cdl.ShareType=='V' :
-            false
-        )
-        	cdl.ShareType='I';
+    ContentDocumentLinkDefault.handle();
 }

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Require_One_Value_to_Change</fullName>
+    <active>true</active>
+    <description>Visibility or Share Type must be assigned.</description>
+    <errorConditionFormula>BLANKVALUE(TEXT(Visibility__c),&#39;NA&#39;)==&#39;NA&#39;
+&amp;&amp; BLANKVALUE(TEXT(ShareType__c),&#39;NA&#39;)==&#39;NA&#39;</errorConditionFormula>
+    <errorMessage>You must set either Visibility or Share Type to something other than Do NOT Change.</errorMessage>
+</ValidationRule>

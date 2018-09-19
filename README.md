@@ -48,7 +48,8 @@ At the initial release, you manage rules directly in Customer Metadata. Here is 
 You can have multiple rules for the same sObject with different selection criteria. 
 
 #  Deactivate Rules
-You can simply dsiable rules. To do so:
+You can simply disable rules.
+
 1. Navigate to Setup - Custom Metadata Types - Content Link Default
 2. Locate the rule you intend to deactivate
 3. Edit the rule

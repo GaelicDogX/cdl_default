@@ -26,7 +26,7 @@ update cdlList;
 The list of ContentDocumentLink records will NOT be saved, but the revised values will have been applied.
 
 # Managing Rules
-At the initial release, you manage rules directly in Customer Metadata. Here is how it is done.
+At the initial release, you manage rules directly in Custom Metadata. Here is how it is done.
 
 1. After installing the package in your org, navigate to Setup - Custom Metadata Types - Content Link Default
 2. Assign the following values
